@@ -44,4 +44,5 @@ Route::get('/', function () {
 // });
 
 // 2-2
-Route::get('hello/{id?}/{pass?}', 'HelloController@index');
+Route::get('hello', 'HelloController@index');
+Route::get('hello/other', 'HelloController@other');
